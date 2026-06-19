@@ -1,12 +1,21 @@
-# PyMUSAS Notebook
+# PyMUSAS Notebooks
 
-This repository contains a notebook and the data the notebook uses to demonstrate the uses of [PyMUSAS](https://github.com/UCREL/pymusas). The notebook can be found at [./PyMUSAS.ipynb](./PyMUSAS.ipynb) and the data are the two text files.
+This repository contain multiple notebooks, that can be opened in Google Colab, and the data the notebooks use to demonstrate the uses of [PyMUSAS](https://github.com/UCREL/pymusas).
 
-The notebook guides use through the following (**note** even though this guide shows how to tag **English** text we do link you to a guide on how to setup PyMUSAS to tag other languages, of which we currently support 9 other languages):
+## Introductory notebooks
 
-- How to install and setup PyMUSAS for English.
-- How to tag text whereby the text can come from a Python string variable or a file.
-- How to view the POS tags in combination with it's associated tokens.
-- Create histograms of the most frequent POS and tokens in your tagged text
-- Compare the frequency of tokens between two texts
-- Generating keyness values of tokens based off the two texts.
+The following notebooks are introductions into PyMUSAS.
+
+* [./PyMUSAS.ipynb](./PyMUSAS.ipynb) notebook, which uses the [./Nile.txt](./Nile.txt) and [./danube.txt](./danube.txt) text files from Wikipedia, is a basic introduction into PyMUSAS and tagging in general, the guide is English only and covers; 
+    - How to install and setup PyMUSAS for English.
+    - How to tag text whereby the text can come from a Python string variable or a file.
+    - How to view the POS tags in combination with it's associated tokens.
+    - Create histograms of the most frequent POS and tokens in your tagged text
+    - Compare the frequency of tokens between two texts
+    - Generating keyness values of tokens based off the two texts.
+* [./ucrel_summer_school.ipynb](./ucrel_summer_school.ipynb) notebook is a longer and more detailed introduction, it also supports 9 of the PyMUSAS supported 12+ languages including English. The guide covers;
+    - Load a Rule Based semantic tagger.
+    - Semantically tag a single sentence.
+    - Semantically tagging a large dataset using datasets from HuggingFace.
+    - Comparing two semantically tagged dataset through visualisation and a keyness metric.
+    - At the end it allows the user to explore the Hybrid and Neural tagger through the tutorials on the [PyMUSAS documentation website](https://ucrel.github.io/pymusas/).
