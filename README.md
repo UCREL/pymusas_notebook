@@ -19,3 +19,9 @@ The following notebooks are introductions into PyMUSAS.
     - Semantically tagging a large dataset using datasets from HuggingFace.
     - Comparing two semantically tagged dataset through visualisation and a keyness metric.
     - At the end it allows the user to explore the Hybrid and Neural tagger through the tutorials on the [PyMUSAS documentation website](https://ucrel.github.io/pymusas/).
+
+
+## License
+
+* Code and notebooks are licensed under [Apache license 2.0](./LICENSE).
+* The data, which is the [./Nile.txt](./Nile.txt) and [./danube.txt](./danube.txt), has come from Wikipedia and thus licensed under the same license as Wikipedia which is the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license.
